@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Query
 from fastapi.responses import FileResponse
-from musicgen_utils import generate_music
+from .musicgen_utils import generate_music
 import uuid
 import os
 
